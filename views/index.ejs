@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Arrastra donde corresponde</h1>
+    <div class="container">
+ <img src="img/jose.jpg" alt="" draggable="true" ondrag="drag(event)" id="zorra">
+    <img src="img/siry.jpg" alt="" draggable="true" ondrag="drag(event)" id="puta">
+    <img src="img/samira.jpg" alt="" draggable="true" ondrag="drag(event)" id="virgen">
+
+    <div class="container"> 
+        <div class="figura">
+            <div class="box" id="0" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<h2>zorra</h2>
+ </div>
+<div class="figura">
+    <div class="box" id="1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<h2>perra</h2>
+
+<div class="figura">
+    <div class="box" id="2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<h2>virgen</h2>
+
+        </div>
+
+    </div>
